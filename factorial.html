@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Factorial of a number</title>
+</head>
+<body>
+    <script>
+        function findFactorial(number){
+            if (number === 0   || number === 1){
+                return 1;
+            }
+            for (var i = number - 1 ; i >= 1; i--){
+                number = number * i;
+            }
+            return number;
+        }
+        findFactorial(6);
+        </script>
+</body>
+</html>

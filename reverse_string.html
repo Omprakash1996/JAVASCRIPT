@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Given a string , reverse each word in the sentence</title>
+</head>
+<body>
+<script>
+
+var string="welcome to this javascript !";
+var reverseEntireSentence = reverseBySeparator(string,"");
+var reverseEachWord = reverseBySeparator(reverseEntireSentence," ");
+function reverseBySeparater(string, separator){
+return string.split(separator).reverse().join(separator);
+}
+</script>
+</body>
+</html>
